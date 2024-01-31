@@ -13,7 +13,7 @@ function main(str) {
     a.splice(30, str.length - 30)
     let str1 = a.join("") + '...'
     return str1
-  } else{
+  } else {
     return str
   }
 
