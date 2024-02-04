@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header></header>
+  <main>
+    <form class="js-form" action="" novalidate>
+        <h1>Вход</h1>
+        <label>
+          <span>Email</span>
+          <input class="js-input js-input-email" placeholder="  johndoe@email.com" name="email">
+          <span class="error-message"></span>
+        </input>
+        </label>
+        <label>
+          <span>Пароль</span>
+          <input type="password" class="js-input js-input-password" placeholder="  Введите пароль" name="password">
+          <span class="error-message"></span>
+          </input>
+        </label>
+        <label>
+          <div>
+            <input type="checkbox" class="js-input js-input-checkbox">
+            <span>Я согласен получать обновления на почту</span>
+          </div>
+          <span></span>
+        </label>
+          <button type="submit" id="myButton">
+            <span>Войти</span>
+          </button>
+    </form>
+  </main>
+  <footer></footer>
+</body>
+</html>
